@@ -22,7 +22,7 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 */ 
 @Configuration
 @Slf4j
-public class ThreadPoolConfiguration {
+public class ThreadPoolConfig {
 
     @Bean
     public ThreadPoolTaskExecutor threadPoolTaskExecutor(){

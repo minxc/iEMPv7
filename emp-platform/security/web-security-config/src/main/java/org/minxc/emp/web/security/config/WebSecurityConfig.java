@@ -91,7 +91,7 @@ import java.util.List;
 
 @Slf4j
 @Configuration
-public class WebSecurityConfiguration {
+public class WebSecurityConfig {
 
     @Resource
     private UserDetailsService userDetailsService;

@@ -25,13 +25,13 @@ import org.springframework.web.filter.DelegatingFilterProxy;
 @Configuration
 public class WebConfig {
 
-    @Bean
-    public FilterRegistrationBean springSecurityFilter() {
-        FilterRegistrationBean springSecurityFilterChain = new FilterRegistrationBean();
-        springSecurityFilterChain.addUrlPatterns("/*");
-        springSecurityFilterChain.setFilter(new DelegatingFilterProxy());
-        springSecurityFilterChain.setName("springSecurityFilterChain");
-        return springSecurityFilterChain;
-    }
+//    @Bean
+//    public FilterRegistrationBean springSecurityFilter() {
+//        FilterRegistrationBean springSecurityFilterChain = new FilterRegistrationBean();
+//        springSecurityFilterChain.addUrlPatterns("/*");
+//        springSecurityFilterChain.setFilter(new DelegatingFilterProxy());
+//        springSecurityFilterChain.setName("springSecurityFilterChain");
+//        return springSecurityFilterChain;
+//    }
 
 }

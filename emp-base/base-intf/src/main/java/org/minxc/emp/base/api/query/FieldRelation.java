@@ -6,6 +6,7 @@ package org.minxc.emp.base.api.query;
  * </pre>
  */
 public enum FieldRelation {
+
     AND("AND"), OR("OR"), NOT("NOT");
     private String val;
 

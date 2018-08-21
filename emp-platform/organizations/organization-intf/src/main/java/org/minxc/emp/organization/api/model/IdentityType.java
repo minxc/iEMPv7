@@ -2,11 +2,13 @@ package org.minxc.emp.organization.api.model;
 
 import java.io.Serializable;
 
-/**
- * <pre>
- * 描述：用户标识类型
- * </pre>
- */
+/* 
+
+* @Title:
+
+* @Description:用户的标识类型
+
+**/ 
 public interface IdentityType extends Serializable {
 
     /**

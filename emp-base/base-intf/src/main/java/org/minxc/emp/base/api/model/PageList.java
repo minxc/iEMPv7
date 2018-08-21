@@ -4,9 +4,14 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * 包含“分页”信息的List，这个对象包含分页数据和分页结果。
- */
+/*
+
+* @Title: PageList
+
+* @Description: 包含“分页”信息的List，这个对象包含分页数据和分页结果。
+
+
+**/
 public class PageList<E> extends ArrayList<E> implements Serializable {
 
     private static final long serialVersionUID = 1412759446332294208L;

@@ -4,11 +4,11 @@ import org.minxc.emp.base.api.constant.BaseStatusCode;
 import org.minxc.emp.base.api.constant.StatusCode;
 
 /**
- * @author jeff
- * 2017-11-19 20:38:08
- * @说明 业务异常，通常用于业务代码反馈异常信息状态码
+ *业务异常，通常用于业务代码反馈异常信息状态码
  */
+
 public class BusinessException extends RuntimeException {
+
     private static final long serialVersionUID = -7289238698048230824L;
     public StatusCode statusCode = BaseStatusCode.SYSTEM_ERROR;
 

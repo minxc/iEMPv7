@@ -3,7 +3,7 @@ package org.minxc.emp.organization.api.model;
 /**
  * 组织类型。
  *
- * @author ray
+ * min.xianchang
  */
 public class GroupType {
 

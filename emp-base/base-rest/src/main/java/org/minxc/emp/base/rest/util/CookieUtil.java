@@ -11,7 +11,7 @@ import org.minxc.emp.base.core.util.StringUtil;
  * cookie操作类
  * <br>功能：对cookie进行增查改删
  */
-public class CookieUitl {
+public class CookieUtil {
 
     /**
      * 添加cookie，cookie的生命周期为关闭浏览器即消失

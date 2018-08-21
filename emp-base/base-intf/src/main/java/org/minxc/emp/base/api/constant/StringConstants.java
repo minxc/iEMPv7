@@ -1,6 +1,7 @@
 package org.minxc.emp.base.api.constant;
 
 public interface StringConstants {
+
     String AMPERSAND = "&";
 
     String AND = "and";

@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @param params 用于请求参数的存放
+ * 用于请求参数的存放
  * @说明 系统请求参数
  */
 public class RequestParam {
@@ -56,9 +56,8 @@ public class RequestParam {
     /**
      * 获取必填的String类型的param
      *
-     * @param json
      * @param key
-     * @param msg
+     * @param errorMsg
      * @return
      */
     public String getRQString(String key, String errorMsg) {

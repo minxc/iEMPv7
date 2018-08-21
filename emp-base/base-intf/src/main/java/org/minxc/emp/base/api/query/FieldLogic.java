@@ -8,5 +8,7 @@ import java.util.List;
  * @author csx
  */
 public interface FieldLogic extends WhereClause {
+
+
     public List<WhereClause> getWhereClauses();
 }

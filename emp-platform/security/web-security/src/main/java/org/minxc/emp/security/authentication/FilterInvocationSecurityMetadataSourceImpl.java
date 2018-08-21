@@ -19,14 +19,31 @@ import org.minxc.emp.base.core.util.StringUtil;
 import org.minxc.emp.security.constant.PlatformSecurityConstants;
 import org.minxc.emp.system.api.service.SystemResourceService;
 
-/**
- * 根据当前的URL获取他上面分配的角色列表
- */
+/*
+
+* @Title: FilterInvocationSecurityMetadataSourceImpl
+
+* @Description: 根据当前的URL获取他上面分配的角色列表
+
+*/
 public class FilterInvocationSecurityMetadataSourceImpl extends IngoreChecker implements FilterInvocationSecurityMetadataSource {
 
     @Resource
     private SystemResourceService systemResourceService;
 
+    /**
+
+    * @Title: getAttributes   TODO:增加缓存实现，实现动态更新缓存和数据库信息
+
+    * @Description: 获取请求路径所配置角色等信息
+
+    * @param object 过滤器链信息
+
+    * @return java.util.Collection<org.springframework.security.access.ConfigAttribute>    返回类型
+
+    * @throws   IllegalArgumentException  抛出异常
+
+    **/
     @Override
     public Collection<ConfigAttribute> getAttributes(Object object) throws IllegalArgumentException {
         Collection<ConfigAttribute> configAttribute = new HashSet<ConfigAttribute>();
@@ -35,7 +52,7 @@ public class FilterInvocationSecurityMetadataSourceImpl extends IngoreChecker im
         HttpServletRequest request = filterInvocation.getRequest();
 
         String url = request.getRequestURI();
-        url = removeCtx(url, request.getContextPath());
+        url = removeWebContextPath(url, request.getContextPath());
 
         if (isIngores(url)) {
             configAttribute.add(PlatformSecurityConstants.ROLE_CONFIG_ANONYMOUS);
@@ -67,13 +84,13 @@ public class FilterInvocationSecurityMetadataSourceImpl extends IngoreChecker im
 
 
     /**
-     * 获取当前URL
+     * 去除web的content路径
      *
      * @param url
      * @param ctxPath
      * @return
      */
-    private static String removeCtx(String url, String ctxPath) {
+    private static String removeWebContextPath(String url, String ctxPath) {
         url = url.trim();
         if (StringUtil.isEmpty(ctxPath)) return url;
         if (StringUtil.isEmpty(url)) return "";

@@ -7,7 +7,7 @@ import org.apache.commons.lang3.builder.ToStringBuilder;
 /**
  * @author jeff
  */
-public class SysAuthorization extends BaseModelImpl {
+public class SystemAuthorization extends BaseModelImpl {
 
     public static final String RIGHT_TYPE_USER = "user";
     public static final String RIGHT_TYPE_ALL = "all";

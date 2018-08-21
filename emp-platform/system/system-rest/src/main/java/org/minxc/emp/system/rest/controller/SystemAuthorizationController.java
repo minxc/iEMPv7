@@ -15,7 +15,7 @@ import org.minxc.emp.base.rest.GenericController;
 import org.minxc.emp.base.rest.util.RequestUtil;
 import org.minxc.emp.system.api.constant.RightsObjectConstants;
 import org.minxc.emp.system.core.manager.SystemAuthorizationManager;
-import org.minxc.emp.system.core.model.SysAuthorization;
+import org.minxc.emp.system.core.model.SystemAuthorization;
 
 
  
@@ -41,7 +41,7 @@ public class SystemAuthorizationController extends GenericController{
 			
 		RightsObjectConstants.getByKey(targetObject);
 		
-		List<SysAuthorization> sysAuthorizationList = JSON.parseArray(authorizationJson, SysAuthorization.class);
+		List<SystemAuthorization> sysAuthorizationList = JSON.parseArray(authorizationJson, SystemAuthorization.class);
 		
 		sysAuthorizationManager.createAll(sysAuthorizationList,targetId,targetObject);
 		
@@ -60,7 +60,7 @@ public class SystemAuthorizationController extends GenericController{
 		String rightsTarget = request.getParameter("rightsTarget");
 		String rightsTargetObject = RequestUtil.getString(request, "rightsObject");
 		
-		List<SysAuthorization> list = sysAuthorizationManager.getByTarget(RightsObjectConstants.valueOf(rightsTargetObject), rightsTarget);
+		List<SystemAuthorization> list = sysAuthorizationManager.getByTarget(RightsObjectConstants.valueOf(rightsTargetObject), rightsTarget);
 		 
 		writeSuccessData(response, list);
 	}

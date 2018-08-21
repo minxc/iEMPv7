@@ -6,6 +6,7 @@ package org.minxc.emp.organization.api.model;
  * @author ray
  */
 public enum GroupStructEnum {
+
     PLAIN("plain", "平铺"),
     TREE("tree", "树形");
 

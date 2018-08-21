@@ -20,12 +20,12 @@ import org.minxc.emp.organization.api.model.Group;
 import org.minxc.emp.organization.api.service.GroupService;
 import org.minxc.emp.system.api.constant.RightsObjectConstants;
 import org.minxc.emp.system.core.manager.SystemAuthorizationManager;
-import org.minxc.emp.system.core.model.SysAuthorization;
+import org.minxc.emp.system.core.model.SystemAuthorization;
 import org.minxc.emp.system.util.ContextUtil;
 
 
 @Service("sysAuthorizationManager")
-public class SysAuthorizationManagerImpl extends BaseManager<String, SysAuthorization> implements SystemAuthorizationManager {
+public class SysAuthorizationManagerImpl extends BaseManager<String, SystemAuthorization> implements SystemAuthorizationManager {
 
     @Resource
     private SysAuthorizationDao sysAuthorizationDao;
@@ -42,8 +42,8 @@ public class SysAuthorizationManagerImpl extends BaseManager<String, SysAuthoriz
         List<Group> list = userGroupService.getGroupsByUserId(userId);
 
         Set<String> rights = new HashSet<String>();
-        rights.add(String.format("%s-%s", userId, SysAuthorization.RIGHT_TYPE_USER));
-        rights.add(String.format("%s-%s", SysAuthorization.RIGHT_TYPE_USER, SysAuthorization.RIGHT_TYPE_ALL));
+        rights.add(String.format("%s-%s", userId, SystemAuthorization.RIGHT_TYPE_USER));
+        rights.add(String.format("%s-%s", SystemAuthorization.RIGHT_TYPE_USER, SystemAuthorization.RIGHT_TYPE_ALL));
 
 
         if (BeanUtils.isEmpty(list)) return rights;
@@ -91,16 +91,16 @@ public class SysAuthorizationManagerImpl extends BaseManager<String, SysAuthoriz
 
 
     @Override
-    public List<SysAuthorization> getByTarget(RightsObjectConstants rightsObject, String rightsTarget) {
+    public List<SystemAuthorization> getByTarget(RightsObjectConstants rightsObject, String rightsTarget) {
         return sysAuthorizationDao.getByTarget(rightsObject.key(), rightsTarget);
     }
 
 
     @Override
-    public void createAll(List<SysAuthorization> sysAuthorizationList, String targetId, String targetObject) {
+    public void createAll(List<SystemAuthorization> sysAuthorizationList, String targetId, String targetObject) {
         sysAuthorizationDao.deleteByTarget(targetObject, targetId);
 
-        for (SysAuthorization authorization : sysAuthorizationList) {
+        for (SystemAuthorization authorization : sysAuthorizationList) {
             authorization.setRightsPermissionCode(String.format("%s-%s", authorization.getRightsIdentity(), authorization.getRightsType()));
             if (StringUtil.isEmpty(authorization.getRightsObject())) {
                 authorization.setRightsObject(targetObject);

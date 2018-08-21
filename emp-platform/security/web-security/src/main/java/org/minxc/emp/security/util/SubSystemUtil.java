@@ -1,7 +1,7 @@
 package org.minxc.emp.security.util;
 
 import org.minxc.emp.base.core.util.StringUtil;
-import org.minxc.emp.base.rest.util.CookieUitl;
+import org.minxc.emp.base.rest.util.CookieUtil;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -15,7 +15,7 @@ public class SubSystemUtil {
      * @return
      */
     public static String getSystemId(HttpServletRequest req) {
-        String systemId = CookieUitl.getValueByName("systemId", req);
+        String systemId = CookieUtil.getValueByName("systemId", req);
         if (StringUtil.isEmpty(systemId)) return "1";
         return systemId;
     }
@@ -28,6 +28,6 @@ public class SubSystemUtil {
      * @param systemId
      */
     public static void setSystemId(HttpServletRequest req, HttpServletResponse response, String systemId) {
-        CookieUitl.addCookie("systemId", systemId, true, req, response);
+        CookieUtil.addCookie("systemId", systemId, true, req, response);
     }
 }

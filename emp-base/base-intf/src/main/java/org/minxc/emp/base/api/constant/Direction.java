@@ -1,11 +1,20 @@
 package org.minxc.emp.base.api.constant;
 
 /**
- * 字段排序方式
- *
- * @author Administrator
+ * 
+* 项目名称：base-intf   
+* 类名称：Direction   
+* 类描述：字段排序方式   
+* 创建人：Xianchang.min   
+* 创建时间：2018年8月21日 下午10:45:46   
+* 修改人：Xianchang.min   
+* 修改时间：2018年8月21日 下午10:45:46   
+* 修改备注：   
+* @version  1.0  
+*
  */
 public enum Direction {
+	
     ASC("asc", "升序"), DESC("desc", "降序");
     /**
      * key

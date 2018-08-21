@@ -1,7 +1,17 @@
 package org.minxc.emp.base.api.constant;
 
-/**
- * @说明 基础系统状态码定义
+/*
+ * 
+* 项目名称：base-intf   
+* 类名称：BaseStatusCode   
+* 类描述：   系统基础状态码定义
+* 创建人：Xianchang.min   
+* 创建时间：2018年8月21日 下午10:43:48   
+* 修改人：Xianchang.min   
+* 修改时间：2018年8月21日 下午10:43:48   
+* 修改备注：   
+* @version  1.0  
+*
  */
 public enum BaseStatusCode implements StatusCode {
 

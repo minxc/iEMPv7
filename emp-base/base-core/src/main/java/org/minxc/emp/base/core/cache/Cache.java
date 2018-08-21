@@ -1,8 +1,16 @@
 package org.minxc.emp.base.core.cache;
-
-/**
- * 缓存操作接口。
- * 定义了增加缓存，删除缓存，清除缓存，读取缓存接口。
+/*
+ * 
+* 项目名称：base-core   
+* 类名称：Cache   
+* 类描述： 缓存操作接口 --定义了增加缓存，删除缓存，清除缓存，读取缓存接口。 
+* 创建人：Xianchang.min   
+* 创建时间：2018年8月21日 下午11:18:30   
+* 修改人：Xianchang.min   
+* 修改时间：2018年8月21日 下午11:18:30   
+* 修改备注：   
+* @version  1.0  
+*
  */
 public interface Cache<T extends Object> {
     /**

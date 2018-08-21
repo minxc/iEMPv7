@@ -2,8 +2,18 @@ package org.minxc.emp.base.core.util;
 
 import org.minxc.emp.base.core.spring.CustPropertyPlaceholderConfigurer;
 
-/**
- * 属性工具类。
+/*
+ * 
+* 项目名称：base-core   
+* 类名称：PropertyUtil   
+* 类描述：  属性工具类 
+* 创建人：Xianchang.min   
+* 创建时间：2018年8月21日 下午11:25:21   
+* 修改人：Xianchang.min   
+* 修改时间：2018年8月21日 下午11:25:21   
+* 修改备注：   
+* @version  1.0  
+*
  */
 public class PropertyUtil {
 

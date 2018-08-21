@@ -127,7 +127,6 @@ public class XmlUtil {
      * @param nextName  第二个节点名
      * @throws Exception
      */
-    @SuppressWarnings("unchecked")
     public static void checkXmlFormat(org.dom4j.Element root, String firstName, String nextName) throws Exception {
         String msg = "导入文件格式不对";
         if (!root.getName().equals(firstName))

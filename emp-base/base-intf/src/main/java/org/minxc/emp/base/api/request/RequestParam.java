@@ -10,9 +10,18 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * 用于请求参数的存放
- * @说明 系统请求参数
+/*
+ * 
+* 项目名称：base-intf   
+* 类名称：RequestParam   
+* 类描述：   用于请求参数的存放
+* 创建人：Xianchang.min   
+* 创建时间：2018年8月21日 下午11:00:36   
+* 修改人：Xianchang.min   
+* 修改时间：2018年8月21日 下午11:00:36   
+* 修改备注：   
+* @version  1.0  
+*
  */
 public class RequestParam {
     /**

@@ -17,15 +17,19 @@ import org.minxc.emp.base.db.model.page.PageJson;
 import org.minxc.emp.base.manager.Manager;
 import com.github.pagehelper.Page;
 
+
 /**
- * <pre>
- * 描述：controller的基础类
- * 包含了常用的增删查改的方法，需要定制化可自行覆盖
- * 作者:aschs
- * 邮箱:aschs@qq.com
- * 日期:2018年4月3日 下午8:41:30
- * 版权:summer
- * </pre>
+ * 
+* 项目名称：base-rest   
+* 类名称：BaseController   
+* 类描述： controller的基础类 , 包含了常用的增删查改的方法，需要定制化可自行覆盖
+* 创建人：Xianchang.min   
+* 创建时间：2018年8月21日 下午11:10:21   
+* 修改人：Xianchang.min   
+* 修改时间：2018年8月21日 下午11:10:21   
+* 修改备注：   
+* @version  1.0  
+*
  */
 public abstract class BaseController<T extends BaseModel> extends GenericController{
 	

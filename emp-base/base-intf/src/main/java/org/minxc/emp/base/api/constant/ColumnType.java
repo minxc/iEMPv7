@@ -5,13 +5,16 @@ import org.minxc.emp.base.api.exception.BusinessException;
 import java.util.Arrays;
 
 /**
- * <pre>
- * 描述：Column中的type枚举
- * 作者:aschs
- * 邮箱:aschs@qq.com
- * 日期:2018年3月13日 下午6:23:06
- * 版权:summer
- * </pre>
+* 项目名称：base-intf   
+* 类名称：ColumnType   
+* 类描述：Column中的type枚举   
+* 创建人：Xianchang.min   
+* 创建时间：2018年8月21日 下午10:44:18   
+* 修改人：Xianchang.min   
+* 修改时间：2018年8月21日 下午10:44:18   
+* 修改备注：   
+* @version  1.0  
+*
  */
 public enum ColumnType {
     /**
@@ -38,6 +41,7 @@ public enum ColumnType {
      * 描述
      */
     private String desc;
+    
     /**
      * 支持的数据库类型
      */

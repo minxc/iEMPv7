@@ -1,10 +1,17 @@
 package org.minxc.emp.base.api.executor;
 
 /**
- * 执行器
- *
- * @param <T> 运行执行器需要的参数
- * @author aschs
+ * 
+* 项目名称：base-intf   
+* 类名称：Executor   
+* 类描述： 执行器接口
+* 创建人：Xianchang.min   
+* 创建时间：2018年8月21日 下午10:49:47   
+* 修改人：Xianchang.min   
+* 修改时间：2018年8月21日 下午10:49:47   
+* 修改备注：   
+* @version  1.0  
+*
  */
 public interface Executor<T> extends Comparable<Executor<T>> {
 

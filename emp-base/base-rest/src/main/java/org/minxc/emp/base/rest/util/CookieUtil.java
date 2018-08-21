@@ -8,8 +8,21 @@ import org.minxc.emp.base.core.util.StringUtil;
 
 
 /**
- * cookie操作类
- * <br>功能：对cookie进行增查改删
+ * 
+ * <br>功能：
+ */
+/**
+ * 
+* 项目名称：base-rest   
+* 类名称：CookieUtil   
+* 类描述： cookie操作类 ,实现对cookie进行增查改删
+* 创建人：Xianchang.min   
+* 创建时间：2018年8月21日 下午11:08:35   
+* 修改人：Xianchang.min   
+* 修改时间：2018年8月21日 下午11:08:35   
+* 修改备注：   
+* @version  1.0  
+*
  */
 public class CookieUtil {
 

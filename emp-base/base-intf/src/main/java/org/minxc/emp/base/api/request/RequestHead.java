@@ -1,7 +1,17 @@
 package org.minxc.emp.base.api.request;
 
 /**
- * TODO 请求头
+ * 
+* 项目名称：base-intf   
+* 类名称：RequestHead   
+* 类描述：请求头信息描述   
+* 创建人：Xianchang.min   
+* 创建时间：2018年8月21日 下午11:00:04   
+* 修改人：Xianchang.min   
+* 修改时间：2018年8月21日 下午11:00:04   
+* 修改备注：   
+* @version  1.0  
+*
  */
 public class RequestHead {
 

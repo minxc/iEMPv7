@@ -15,12 +15,18 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.regex.PatternSyntaxException;
 
-/**
- * 拼音使用工具类 </br> 功能： 输入汉字取得拼音。 <br>
- * 使用Pinyin4j.jar
- *
- * @author zxh
- * @version 2012-08-09
+/*
+ * 
+* 项目名称：base-core   
+* 类名称：PinyinUtil   
+* 类描述： 拼音使用工具类 </br> 功能： 输入汉字取得拼音s  
+* 创建人：Xianchang.min   
+* 创建时间：2018年8月21日 下午11:25:10   
+* 修改人：Xianchang.min   
+* 修改时间：2018年8月21日 下午11:25:10   
+* 修改备注：   
+* @version  1.0  
+*
  */
 public class PinyinUtil {
 

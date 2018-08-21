@@ -6,10 +6,19 @@ import org.springframework.stereotype.Component;
 import java.util.HashMap;
 import java.util.Map;
 
+
 /**
- * 内存的cache实现。
- * <pre>
- * </pre>
+ * 
+* 项目名称：base-core   
+* 类名称：MemoryCache   
+* 类描述：   自定义内存实现的Cache
+* 创建人：Xianchang.min   
+* 创建时间：2018年8月21日 下午11:19:13   
+* 修改人：Xianchang.min   
+* 修改时间：2018年8月21日 下午11:19:13   
+* 修改备注：   
+* @version  1.0  
+*
  */
 
 @Component

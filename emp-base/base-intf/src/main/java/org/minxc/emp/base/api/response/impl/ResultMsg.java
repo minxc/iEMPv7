@@ -7,13 +7,29 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @param <E>
- * @author Administrator
- * @描述 返回结果
+ * 
+* 项目名称：base-intf   
+* 类名称：ResultMsg   
+* 类描述：回结果   
+* 创建人：Xianchang.min   
+* 创建时间：2018年8月21日 下午11:02:33   
+* 修改人：Xianchang.min   
+* 修改时间：2018年8月21日 下午11:02:33   
+* 修改备注：   
+* @version  1.0  
+*
  */
 public class ResultMsg<E> extends BaseResult {
 
-    @Deprecated
+    /** 
+	
+	* @Fields serialVersionUID : TODO(用一句话描述这个变量表示什么) 
+	
+	*/ 
+	private static final long serialVersionUID = 2299392167452381897L;
+	
+	
+	@Deprecated
     public static final int SUCCESS = 1;
     @Deprecated
     public static final int FAIL = 0;

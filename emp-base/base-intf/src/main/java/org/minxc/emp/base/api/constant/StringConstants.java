@@ -1,5 +1,19 @@
 package org.minxc.emp.base.api.constant;
 
+
+/**
+ * 
+* 项目名称：base-intf   
+* 类名称：StringConstants   
+* 类描述：  常用字符串常量 
+* 创建人：Xianchang.min   
+* 创建时间：2018年8月21日 下午10:46:44   
+* 修改人：Xianchang.min   
+* 修改时间：2018年8月21日 下午10:46:44   
+* 修改备注：   
+* @version  1.0  
+*
+ */
 public interface StringConstants {
 
     String AMPERSAND = "&";

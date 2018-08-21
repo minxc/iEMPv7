@@ -3,6 +3,9 @@ package org.minxc.emp.base.rest.util;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
+
+import lombok.extern.slf4j.Slf4j;
+
 import org.minxc.emp.base.api.constant.ColumnType;
 import org.minxc.emp.base.api.query.FieldLogic;
 import org.minxc.emp.base.api.query.FieldRelation;
@@ -32,6 +35,7 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+@Slf4j
 public class RequestUtil {
 
     private static Logger logger = LoggerFactory.getLogger(QueryFilter.class);

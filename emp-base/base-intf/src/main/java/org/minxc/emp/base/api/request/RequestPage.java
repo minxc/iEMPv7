@@ -6,10 +6,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-/**
- * 分页请求参数
- *
- * @author Administrator
+/*
+ * 
+* 项目名称：base-intf   
+* 类名称：RequestPage   
+* 类描述：分页请求参数   
+* 创建人：Xianchang.min   
+* 创建时间：2018年8月21日 下午11:00:27   
+* 修改人：Xianchang.min   
+* 修改时间：2018年8月21日 下午11:00:27   
+* 修改备注：   
+* @version  1.0  
+*
  */
 public class RequestPage extends RequestParam {
 

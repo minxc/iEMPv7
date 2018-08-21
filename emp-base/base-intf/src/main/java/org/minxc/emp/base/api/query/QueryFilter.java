@@ -7,10 +7,18 @@ import org.minxc.emp.base.api.Page;
 
 /**
  * 
- * <pre> 
- * 描述：组合条件查询过滤
- * </pre>
+* 项目名称：base-intf   
+* 类名称:QueryFilter   
+* 类描述:组合条件查询过滤
+* 创建人：Xianchang.min   
+* 创建时间：2018年8月21日 下午10:54:38   
+* 修改人：Xianchang.min   
+* 修改时间：2018年8月21日 下午10:54:38   
+* 修改备注：   
+* @version  1.0  
+*
  */
+
 public interface QueryFilter {
 	/**
 	 * 返回分页信息

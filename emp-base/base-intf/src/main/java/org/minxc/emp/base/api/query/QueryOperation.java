@@ -1,13 +1,17 @@
 package org.minxc.emp.base.api.query;
 
-/**
- * <pre>
- * 描述：查询字段和值的操作类型枚举
- * 构建组：x5-base-api
- * 作者：Winston Yan
- * 邮箱：yancm@jee-soft.cn
- * 日期：2014-1-3-上午11:17:00
- * </pre>
+/*
+ * 
+* 项目名称：base-intf   
+* 类名称：QueryOperation   
+* 类描述：   查询字段和值的操作类型枚举
+* 创建人：Xianchang.min   
+* 创建时间：2018年8月21日 下午10:54:26   
+* 修改人：Xianchang.min   
+* 修改时间：2018年8月21日 下午10:54:26   
+* 修改备注：   
+* @version  1.0  
+*
  */
 public enum QueryOperation {
     /**

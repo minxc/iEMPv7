@@ -6,8 +6,8 @@ import java.io.InputStream;
  * <pre>
  * 描述：系统的上传流接口
  * ps：跟任何业务都无关，可作为工具类提供出来
- * 作者:aschs
- * 邮箱:aschs@qq.com
+ * 作者:min.xianchang
+ * 邮箱:xianchangmin@126.com
  * 日期:2018年6月1日
  * 版权:summer
  * </pre>

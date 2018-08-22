@@ -5,8 +5,8 @@ import org.minxc.emp.system.api2.model.SystemTreeNode;
 /**
  * <pre>
  * 描述：SysTreeNodeService接口
- * 作者:aschs
- * 邮箱:aschs@qq.com
+ * 作者:min.xianchang
+ * 邮箱:xianchangmin@126.com
  * 日期:2018年3月28日 下午3:31:25
  * 版权:summer
  * </pre>

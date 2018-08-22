@@ -11,11 +11,10 @@ import java.util.regex.Pattern;
 
 
 /**
- * 字段排序。
- * <pre>
- * </pre>
+ * 字段排序
  */
 public class DefaultFieldSort implements FieldSort, Serializable {
+
     /**
      * serialVersionUID:类的序号
      *

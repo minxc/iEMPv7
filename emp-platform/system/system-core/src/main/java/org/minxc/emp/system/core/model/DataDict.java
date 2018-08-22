@@ -5,8 +5,8 @@ import org.minxc.emp.base.core.model.BaseModelImpl;
 
 /**
  * 数据字典 实体对象
- * @author aschs
- * @email aschs@qq.com
+ * @author min.xianchang
+ * @email xianchangmin@126.com
  * @time 2018-05-16 14:39:58
  */
 public class DataDict extends BaseModelImpl{

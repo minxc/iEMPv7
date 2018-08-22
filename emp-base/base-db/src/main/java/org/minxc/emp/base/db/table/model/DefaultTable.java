@@ -14,6 +14,7 @@ import java.util.List;
  * </pre>
  */
 public class DefaultTable implements Table {
+
     // 表名
     private String name = "";
     // 表注释
@@ -52,7 +53,7 @@ public class DefaultTable implements Table {
         this.columnList = columnList;
     }
 
-    public List<Column> getPrimayKey() {
+    public List<Column> getPrimaryKey() {
         List<Column> pks = new ArrayList<Column>();
         for (Column column : columnList) {
             if (column.getIsPk())

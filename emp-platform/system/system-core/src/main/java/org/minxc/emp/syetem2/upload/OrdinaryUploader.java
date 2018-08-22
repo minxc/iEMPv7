@@ -16,8 +16,8 @@ import org.minxc.emp.base.core.util.time.DateUtil;
  * 描述：普通的上传器
  * 上传到服务器的某个文件夹中
  * 每次上传时会自动放在当前日期yyyyMMdd的目录下
- * 作者:aschs
- * 邮箱:aschs@qq.com
+ * 作者:min.xianchang
+ * 邮箱:xianchangmin@126.com
  * 日期:2018年6月1日
  * 版权:summer
  * </pre>

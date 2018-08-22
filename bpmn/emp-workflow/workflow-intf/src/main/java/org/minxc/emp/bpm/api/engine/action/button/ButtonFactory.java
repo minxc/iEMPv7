@@ -17,7 +17,7 @@ import org.minxc.emp.bpm.api.model.nodedef.Button;
 /**
  * 通过actionhandle生成默认可配置的 button
  *
- * @author Jeff
+ * @author min.xianchang
  */
 public class ButtonFactory {
     /**

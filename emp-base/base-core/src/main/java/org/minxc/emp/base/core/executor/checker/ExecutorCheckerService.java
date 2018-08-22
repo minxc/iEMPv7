@@ -12,7 +12,7 @@ import org.minxc.emp.base.core.util.AppUtil;
 /**
  * 执行器校验器的服务类
  *
- * @author aschs
+ * @author min.xianchang
  */
 public class ExecutorCheckerService {
     /**

@@ -10,7 +10,7 @@ import org.minxc.emp.system.api.model.SystemIdentity;
 
 /**
  * 通知消息的DTO
- * @author Jeff
+ * @author min.xianchang
  *
  */
 public class NotifyMessage implements Serializable{

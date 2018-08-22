@@ -8,8 +8,8 @@ import javax.sql.DataSource;
 /**
  * <pre>
  * 描述：系统数据源对其他模块的服务类
- * 作者:aschs
- * 邮箱:aschs@qq.com
+ * 作者:min.xianchang
+ * 邮箱:xianchangmin@126.com
  * 日期:2018年1月29日 上午10:42:46
  * 版权:summer
  * </pre>

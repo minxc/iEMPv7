@@ -8,8 +8,8 @@ import org.minxc.emp.base.dao.BaseDao;
 /**
  * form_cust_dialog DAO接口
  *
- * @author aschs
- * @email aschs@qq.com
+ * @author min.xianchang
+ * @email xianchangmin@126.com
  * @time 2018-01-18 19:30:51
  */
 @MapperScan

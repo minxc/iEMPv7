@@ -9,8 +9,8 @@ import org.minxc.emp.base.dao.BaseDao;
  * <pre>
  * 描述：数据源 DAO接口
  * 构建组：白日梦团体
- * 作者:aschs
- * 邮箱:aschs@qq.com
+ * 作者:min.xianchang
+ * 邮箱:xianchangmin@126.com
  * 日期:2018-01-08 21:14:05
  * 版权：summer
  * </pre>

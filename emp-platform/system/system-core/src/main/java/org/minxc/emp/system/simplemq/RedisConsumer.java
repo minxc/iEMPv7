@@ -14,7 +14,7 @@ import org.minxc.emp.system.api.jms.model.JmsDTO;
 
 /**
  * 获取消息的具体消费者并交给该处理着处理消息
- * @author Jeff
+ * @author min.xianchang
  */
 public class RedisConsumer {
 	protected  Logger LOG = LoggerFactory.getLogger(getClass());

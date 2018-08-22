@@ -6,8 +6,8 @@ import org.minxc.emp.form.model.FormDef;
 /**
  * 表单 Manager处理接口
  *
- * @author aschs
- * @email aschs@qq.com
+ * @author min.xianchang
+ * @email xianchangmin@126.com
  * @time 2018-03-19 20:30:46
  */
 public interface FormDefManager extends Manager<String, FormDef> {

@@ -8,8 +8,8 @@ import org.minxc.emp.business.api.model.BusinessObject;
 /**
  * <pre>
  * 描述：Bo对其他模块提供出的service
- * 作者:aschs
- * 邮箱:aschs@qq.com
+ * 作者:min.xianchang
+ * 邮箱:xianchangmin@126.com
  * 日期:2018年3月26日 下午5:46:56
  * 版权:summer
  * </pre>

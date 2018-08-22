@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 /**
  * 不可用 的 校验都不通过
  *
- * @author aschs
+ * @author min.xianchang
  */
 @Service
 public class DisabledExecutorChecker extends AbstractExecutorChecker {

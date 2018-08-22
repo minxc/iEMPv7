@@ -18,8 +18,8 @@ import java.sql.Statement;
  * ps:
  * 目前主要是为了解决jta事务中ddl语句异常
  * executeWithTransaction
- * 作者:aschs
- * 邮箱:aschs@qq.com
+ * 作者:min.xianchang
+ * 邮箱:xianchangmin@126.com
  * 日期:2018年5月30日
  * 版权:summer
  * </pre>

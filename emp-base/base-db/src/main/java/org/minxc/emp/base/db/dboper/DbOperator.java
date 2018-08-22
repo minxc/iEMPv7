@@ -18,8 +18,8 @@ import java.util.Map;
  * 4 获取某个视图的详细信息（包含字段）
  * 5 分区相关
  * ps:针对某个表的操作在TableOperator中实现了
- * 作者:aschs
- * 邮箱:aschs@qq.com
+ * 作者:min.xianchang
+ * 邮箱:xianchangmin@126.com
  * 日期:2018年1月22日 下午8:01:35
  * 版权:summer
  * </pre>

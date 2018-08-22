@@ -24,7 +24,7 @@ import org.minxc.emp.system.core.model.DataDict;
 
 /**
  * 数据字典 控制器类<br/>
- * @author  aschs
+ * @author  min.xianchang
  */
 @RestController
 @RequestMapping("/sys/dataDict")

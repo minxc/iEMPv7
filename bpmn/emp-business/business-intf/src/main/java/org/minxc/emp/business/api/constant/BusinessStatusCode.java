@@ -7,7 +7,7 @@ import org.minxc.emp.base.api.constant.StatusCode;
  * bus层的异常码
  * </pre>
  * 
- * @author aschs
+ * @author min.xianchang
  *
  */
 public enum BusinessStatusCode implements StatusCode {

@@ -12,7 +12,7 @@ import java.util.List;
  *
  * @param <C>
  *            字段类型
- * @author aschs
+ * @author min.xianchang
  */
 public class Table<C extends Column> implements Serializable{
 	/** 
@@ -31,6 +31,8 @@ public class Table<C extends Column> implements Serializable{
 	 * 描述
 	 */
 	protected String comment;
+
+
 	/**
 	 * 字段
 	 */

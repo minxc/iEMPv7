@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 /**
  * 免费的校验器 校验都通过
  *
- * @author aschs
+ * @author min.xianchang
  */
 @Service
 public class FreeExecutorChecker extends AbstractExecutorChecker {

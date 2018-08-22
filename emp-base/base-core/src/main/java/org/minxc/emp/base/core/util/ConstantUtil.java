@@ -10,7 +10,7 @@ import java.util.Map;
 /**
  * 常量的工具类
  *
- * @author aschs
+ * @author min.xianchang
  */
 public class ConstantUtil {
     private ConstantUtil() {

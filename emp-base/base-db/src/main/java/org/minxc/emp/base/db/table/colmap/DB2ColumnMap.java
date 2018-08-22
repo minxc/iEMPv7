@@ -64,7 +64,6 @@ public class DB2ColumnMap implements RowMapper<Column> {
     /**
      * 设置列类型
      *
-     * @param dbtype
      * @param length
      * @param precision
      * @param scale

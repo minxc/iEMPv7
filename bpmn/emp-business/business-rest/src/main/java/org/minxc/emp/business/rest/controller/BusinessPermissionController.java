@@ -22,8 +22,8 @@ import org.minxc.emp.business.model.BusinessPermission;
 /**
  * <pre>
  * 描述：businessPermission层的controller
- * 作者:aschs
- * 邮箱:aschs@qq.com
+ * 作者:min.xianchang
+ * 邮箱:xianchangmin@126.com
  * 日期:下午5:11:06
  * 版权:summer
  * </pre>

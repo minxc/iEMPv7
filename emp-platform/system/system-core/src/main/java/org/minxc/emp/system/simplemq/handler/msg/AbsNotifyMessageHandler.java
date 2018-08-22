@@ -10,7 +10,7 @@ import org.minxc.emp.system.api.jms.model.JmsDTO;
 
 /**
  * 做消息类型的公共逻辑 ：如日志等
- * @author Jeff
+ * @author min.xianchang
  * @param <T>
  */
 public abstract class AbsNotifyMessageHandler<T extends Serializable> implements JmsConsumer<T>{

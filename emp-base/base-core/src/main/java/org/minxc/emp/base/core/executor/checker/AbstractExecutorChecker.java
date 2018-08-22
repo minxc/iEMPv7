@@ -5,7 +5,7 @@ import org.minxc.emp.base.api.executor.checker.ExecutorChecker;
 /**
  * 执行器的校验者的抽象类
  *
- * @author aschs
+ * @author min.xianchang
  */
 public abstract class AbstractExecutorChecker implements ExecutorChecker {
     /**

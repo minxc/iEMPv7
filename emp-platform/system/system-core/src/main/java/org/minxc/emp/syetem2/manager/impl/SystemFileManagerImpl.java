@@ -17,8 +17,8 @@ import org.minxc.emp.syetem2.upload.UploaderFactory;
 /**
  * 系统附件 Manager处理实现类
  * 
- * @author aschs
- * @email aschs@qq.com
+ * @author min.xianchang
+ * @email xianchangmin@126.com
  * @time 2018-06-07 23:54:49
  */
 @Service("sysFileManager")

@@ -11,7 +11,7 @@ import java.io.Serializable;
  * 对应数据库的列对象
  * </pre>
  *
- * @author aschs
+ * @author min.xianchang
  */
 public class Column implements Serializable{
     /**

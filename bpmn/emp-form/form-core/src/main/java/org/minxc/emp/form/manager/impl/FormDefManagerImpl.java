@@ -23,8 +23,8 @@ import org.minxc.emp.system.api2.service.SystemTreeNodeService;
 /**
  * 表单 Manager处理实现类
  *
- * @author aschs
- * @email aschs@qq.com
+ * @author min.xianchang
+ * @email xianchangmin@126.com
  * @time 2018-03-19 20:30:46
  */
 @Service("formDefManager")

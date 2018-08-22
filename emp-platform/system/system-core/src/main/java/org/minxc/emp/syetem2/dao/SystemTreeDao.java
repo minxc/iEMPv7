@@ -8,8 +8,8 @@ import org.minxc.emp.base.dao.BaseDao;
 /**
  * 系统树 DAO接口
  *
- * @author aschs
- * @email aschs@qq.com
+ * @author min.xianchang
+ * @email xianchangmin@126.com
  * @time 2018-03-13 19:58:28
  */
 @MapperScan

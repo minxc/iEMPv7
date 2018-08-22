@@ -25,8 +25,8 @@ import org.minxc.emp.system.core.model.DataDict;
 import org.minxc.emp.system.core.manager.DataDictManager;
 /**
  * 数据字典 Manager处理实现类
- * @author aschs
- * @email aschs@qq.com
+ * @author min.xianchang
+ * @email xianchangmin@126.com
  * @time 2018-05-16 14:39:58
  */
 @Service("dataDictManager")

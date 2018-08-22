@@ -7,6 +7,8 @@ import java.util.List;
 
 /**
  * 数据库访问基础类
+ * @param <PK>主键
+ * @param <T>  实体类型
  */
 public interface BaseDao<PK extends Serializable, T> {
     /**

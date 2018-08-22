@@ -9,7 +9,7 @@ import com.alibaba.fastjson.JSONObject;
 /**
  * 枚举的工具类
  *
- * @author aschs
+ * @author min.xianchang
  */
 public class EnumUtil {
 	/**

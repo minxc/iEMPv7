@@ -9,6 +9,7 @@ import org.minxc.emp.base.db.api.table.model.Column;
  * </pre>
  */
 public class DefaultColumn implements Column {
+
     // 列名
     private String name = "";
     // 列注释

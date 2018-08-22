@@ -7,8 +7,8 @@ import java.io.Serializable;
 /**
  * <pre>
  * 描述：SysDataSourceDef的属性字段，SysDataSource也直接复用了
- * 作者:aschs
- * 邮箱:aschs@qq.com
+ * 作者:min.xianchang
+ * 邮箱:xianchangmin@126.com
  * 日期:下午3:25:25
  * 版权:summer
  * </pre>

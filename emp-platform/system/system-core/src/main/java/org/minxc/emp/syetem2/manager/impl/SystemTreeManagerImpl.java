@@ -17,8 +17,8 @@ import org.minxc.emp.syetem2.model.SystemTree;
 /**
  * 系统树 Manager处理实现类
  *
- * @author aschs
- * @email aschs@qq.com
+ * @author min.xianchang
+ * @email xianchangmin@126.com
  * @time 2018-03-13 19:58:28
  */
 @Service("sysTreeManager")

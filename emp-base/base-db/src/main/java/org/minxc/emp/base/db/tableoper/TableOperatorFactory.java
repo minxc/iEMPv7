@@ -7,7 +7,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 /**
  * TableOperator的工厂类
  *
- * @author aschs
+ * @author min.xianchang
  */
 public class TableOperatorFactory {
 	private TableOperatorFactory() {

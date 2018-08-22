@@ -7,8 +7,8 @@ import org.minxc.emp.syetem2.model.SystemFile;
 
 /**
  * 系统附件 Manager处理接口
- * @author aschs
- * @email aschs@qq.com
+ * @author min.xianchang
+ * @email xianchangmin@126.com
  * @time 2018-06-07 23:54:49
  */
 public interface SystemFileManager extends Manager<String, SystemFile>{

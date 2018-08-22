@@ -9,8 +9,8 @@ import javax.validation.constraints.NotEmpty;
 /**
  * <pre>
  * 描述：表单对象
- * 作者:aschs
- * 邮箱:aschs@qq.com
+ * 作者:min.xianchang
+ * 邮箱:xianchangmin@126.com
  * 日期:2018年3月16日 下午4:19:26
  * 版权:summer
  * </pre>

@@ -8,8 +8,8 @@ import java.util.function.Function;
  * <pre>
  * 描述：线程map的工具类
  * 让开发员随时放自己想要的东西到线程变量中
- * 作者:aschs
- * 邮箱:aschs@qq.com
+ * 作者:min.xianchang
+ * 邮箱:xianchangmin@126.com
  * 日期:2018年5月13日
  * 版权:summer
  * </pre>

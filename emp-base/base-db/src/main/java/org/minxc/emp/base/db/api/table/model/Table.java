@@ -36,7 +36,7 @@ public interface Table {
      *
      * @return
      */
-    public List<Column> getPrimayKey();
+    public List<Column> getPrimaryKey();
 
     /**
      * 设置表名

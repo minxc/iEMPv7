@@ -11,7 +11,7 @@ import java.util.Map;
 
 
 /**
- * 组织关系关联对象
+ * 组织关系关联对象 , 组织岗位关联表
  */
 public class GroupRelation extends BaseModelImpl implements Group {
 

@@ -16,9 +16,11 @@ import org.minxc.emp.base.core.util.BeanUtils;
 
 import java.util.Map;
 import java.util.Properties;
+
+
 /**
  * 查询的切面逻辑
- * @author Jeff
+ * @author min.xianchang
  *
  */
 @Intercepts(

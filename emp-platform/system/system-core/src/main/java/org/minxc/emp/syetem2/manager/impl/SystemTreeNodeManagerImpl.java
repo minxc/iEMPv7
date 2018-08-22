@@ -18,8 +18,8 @@ import org.minxc.emp.syetem2.model.SystemTreeNodeImpl;
 /**
  * 系统树节点 Manager处理实现类
  *
- * @author aschs
- * @email aschs@qq.com
+ * @author min.xianchang
+ * @email xianchangmin@126.com
  * @time 2018-03-13 20:02:33
  */
 @Service("sysTreeNodeManager")

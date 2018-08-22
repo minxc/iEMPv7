@@ -7,8 +7,8 @@ import java.io.Serializable;
 /**
  * <pre>
  * 描述：自定义对话框的条件字段
- * 作者:aschs
- * 邮箱:aschs@qq.com
+ * 作者:min.xianchang
+ * 邮箱:xianchangmin@126.com
  * 日期:2018年1月17日 下午8:26:42
  * 版权:summer
  * </pre>
@@ -96,8 +96,8 @@ public class FormCustDialogConditionField implements Serializable {
     /**
      * <pre>
      * 描述：值对象
-     * 作者:aschs
-     * 邮箱:aschs@qq.com
+     * 作者:min.xianchang
+     * 邮箱:xianchangmin@126.com
      * 日期:2018年1月24日 下午5:20:30
      * 版权:summer
      * </pre>

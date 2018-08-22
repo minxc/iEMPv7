@@ -7,9 +7,7 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * <pre>
- * 描述：业务类管理实体类接口
- * </pre>
+ *业务类管理实体类接口，参数对象为主键和业务实体类（对应数据库访问映射实体）
  */
 public interface Manager<PK extends Serializable, T> {
     /**

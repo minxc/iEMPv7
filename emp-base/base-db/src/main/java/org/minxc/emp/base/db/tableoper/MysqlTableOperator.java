@@ -14,7 +14,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
  * mysql的实现类
  * </pre>
  *
- * @author aschs
+ * @author min.xianchang
  */
 public class MysqlTableOperator extends TableOperator {
 

@@ -4,8 +4,8 @@ package org.minxc.emp.business.api.constant;
  * <pre>
  *  
  * 描述：BusinessPermission的objType枚举
- * 作者:aschs
- * 邮箱:aschs@qq.com
+ * 作者:min.xianchang
+ * 邮箱:xianchangmin@126.com
  * 日期:2018年4月22日 下午5:54:01
  * 版权:summer
  * </pre>

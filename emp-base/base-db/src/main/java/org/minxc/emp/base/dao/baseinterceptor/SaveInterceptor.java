@@ -15,7 +15,7 @@ import java.util.Properties;
 
 /**
  * 更新设置更新人
- * @author Jeff
+ * @author min.xianchang
  *
  */
 @Intercepts({

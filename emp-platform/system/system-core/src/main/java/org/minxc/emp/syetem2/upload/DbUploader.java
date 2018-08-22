@@ -18,8 +18,8 @@ import org.minxc.emp.base.db.id.UniqueIdUtil;
  * <pre>
  * 描述：数据库上传器
  * 把流转成bytes放到数据库中
- * 作者:aschs
- * 邮箱:aschs@qq.com
+ * 作者:min.xianchang
+ * 邮箱:xianchangmin@126.com
  * 日期:2018年6月8日
  * 版权:summer
  * </pre>

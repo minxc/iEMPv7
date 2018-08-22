@@ -12,8 +12,8 @@ import java.util.Map;
 /**
  * form_cust_dialog Manager处理接口
  *
- * @author aschs
- * @email aschs@qq.com
+ * @author min.xianchang
+ * @email xianchangmin@126.com
  * @time 2018-01-18 19:30:51
  */
 public interface FormCustDialogManager extends Manager<String, FormCustDialog> {

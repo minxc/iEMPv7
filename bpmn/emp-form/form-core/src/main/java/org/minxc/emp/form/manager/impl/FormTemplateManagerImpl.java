@@ -34,8 +34,8 @@ import org.minxc.emp.form.model.FormTemplate;
 /**
  * <pre>
  * 描述：FormTemplateManager的实现
- * 作者:aschs
- * 邮箱:aschs@qq.com
+ * 作者:min.xianchang
+ * 邮箱:xianchangmin@126.com
  * 日期:2018年3月8日 下午3:16:32
  * 版权:summer
  * </pre>

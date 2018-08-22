@@ -36,8 +36,8 @@ import net.lingala.zip4j.core.ZipFile;
 /**
  * <pre>
  * 描述：上传附件的controller
- * 作者:aschs
- * 邮箱:aschs@qq.com
+ * 作者:min.xianchang
+ * 邮箱:xianchangmin@126.com
  * 日期:2018年6月4日
  * 版权:summer
  * </pre>

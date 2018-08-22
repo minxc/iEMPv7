@@ -22,7 +22,7 @@
 
     <bean id="authenticationLoginEntry" class="org.minxc.emp.security.forbidden.DefualtAuthenticationEntryPoint"/>
     <bean id="accessDeniedHandler" class="org.minxc.emp.security.forbidden.DefaultAccessDeniedHandler"/>
-    <bean id="logoutSuccessHandler" class="org.minxc.emp.security.login.logout.DefualtLogoutSuccessHandler"/>
+    <bean id="logoutSuccessHandler" class="org.minxc.emp.security.login.logout.DefaultLogoutSuccessHandler"/>
 
     <bean id="localeResolver" class="org.springframework.web.servlet.i18n.CookieLocaleResolver"  p:defaultLocale="zh_CN"/>
 

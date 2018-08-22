@@ -17,7 +17,7 @@ import java.util.Map.Entry;
  * LogicParam的校验器
  * </pre>
  *
- * @author aschs
+ * @author min.xianchang
  */
 public class ValidateUtil {
     /**

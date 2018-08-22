@@ -12,7 +12,7 @@ import org.minxc.emp.base.core.executor.checker.FreeExecutorChecker;
  * 执行器的抽象类
  *
  * @param <T>
- * @author aschs
+ * @author min.xianchang
  */
 public abstract class AbstractExecutor<T> implements Executor<T> {
     /**

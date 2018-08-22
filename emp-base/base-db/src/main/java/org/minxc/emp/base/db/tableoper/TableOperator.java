@@ -20,7 +20,7 @@ import java.util.Map.Entry;
  * 3 针对数据：增，删，查，改
  * </pre>
  *
- * @author aschs
+ * @author min.xianchang
  */
 public abstract class TableOperator {
 	protected Logger logger = LoggerFactory.getLogger(this.getClass());

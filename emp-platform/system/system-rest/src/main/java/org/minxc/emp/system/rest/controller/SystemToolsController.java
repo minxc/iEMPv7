@@ -20,7 +20,7 @@ import org.minxc.emp.base.rest.util.RequestUtil;
 /**
  * 系统工具类
  *
- * @author aschs
+ * @author min.xianchang
  */
 @RestController
 @RequestMapping("/sys/tools/")

@@ -7,15 +7,12 @@ import javax.validation.constraints.NotEmpty;
 import java.util.Date;
 
 /**
- * <pre>
  * 描述：框架所有Model都需要继承的model
  * 里面有一些系统常用字段，当不需要持久化时map不要配置这些字段则可
  * version字段会在manager.update时自动+1 切记别重复加1了
- * 作者:aschs
- * 邮箱:aschs@qq.com
+ * 作者:min.xianchang
+ * 邮箱:xianchangmin@126.com
  * 日期:2018年4月2日 下午8:31:04
- * 版权:summer
- * </pre>
  */
 public abstract class BaseModelImpl extends ToStringUtil implements BaseModel {
     // 主键

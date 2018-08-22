@@ -14,7 +14,7 @@ import org.minxc.emp.base.core.util.AppUtil;
 /**
  * 执行器的服务类
  *
- * @author aschs
+ * @author min.xianchang
  */
 public class ExecutorFactory {
 	private static final Map<Class, Map> sourceMap = new HashMap<>();

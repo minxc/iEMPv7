@@ -42,8 +42,8 @@ import org.minxc.emp.system.api2.service.SystemDataSourceService;
 /**
  * form_cust_dialog Manager处理实现类
  *
- * @author aschs
- * @email aschs@qq.com
+ * @author min.xianchang
+ * @email xianchangmin@126.com
  * @time 2018-01-18 19:30:51
  */
 @Service("formCustDialogManager")

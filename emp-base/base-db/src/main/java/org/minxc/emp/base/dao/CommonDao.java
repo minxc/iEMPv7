@@ -13,9 +13,11 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * 通用查询操作。
- * @param <T>
+ * 数据库通用查询操作,执行基本SQL语句的查询操作
+ * @param <T>实体类型
  */
+
+
 @Repository
 public class CommonDao<T> {
     @Resource
@@ -60,7 +62,7 @@ public class CommonDao<T> {
         query.setPage(page);
         
         String key = getNameSpace("query");
-        return   sqlSessionTemplate.selectList(key,  query);
+        return  sqlSessionTemplate.selectList(key,  query);
     }
 
     private String getNameSpace(String sqlKey) {
@@ -73,7 +75,6 @@ public class CommonDao<T> {
      * 分页查询， 自行强转 com.github.pagehelper.Page<E> 获取page信息
      * @param sql
      * @param queryFilter
-     * @param params
      * @return
      */
     public List<T> queryForListPage(String sql, QueryFilter queryFilter) {

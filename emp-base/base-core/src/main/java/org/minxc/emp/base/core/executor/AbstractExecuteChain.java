@@ -8,7 +8,7 @@ import org.minxc.emp.base.api.executor.ExecuteChain;
  * 具体看例子吧-。-
  *
  * @param <T>
- * @author aschs
+ * @author min.xianchang
  */
 public abstract class AbstractExecuteChain<T> extends AbstractExecutor<T> implements ExecuteChain<T> {
 

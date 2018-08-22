@@ -21,7 +21,7 @@ import org.minxc.emp.bus.util.BusinessTableCacheUtil;
 /**
  * businessTable层的controller
  *
- * @author aschs
+ * @author min.xianchang
  */
 @RestController
 @RequestMapping("/bus/businessTable/")

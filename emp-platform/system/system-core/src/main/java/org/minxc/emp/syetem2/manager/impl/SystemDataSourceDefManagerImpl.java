@@ -20,10 +20,10 @@ import org.minxc.emp.syetem2.model.SystemDataSourceDef;
 import org.minxc.emp.syetem2.model.def.SystemDataSourceDefAttribute;
 
 /**
- * @author aschs
+ * @author min.xianchang
  * @description 数据源模板 Manager处理实现类
  * @group dayDream
- * @email aschs@qq.com
+ * @email xianchangmin@126.com
  */
 @Service
 public class SystemDataSourceDefManagerImpl extends BaseManager<String, SystemDataSourceDef> implements SystemDataSourceDefManager {

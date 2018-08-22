@@ -1,7 +1,20 @@
 package org.minxc.emp.system.core.dao;
 
-import org.minxc.emp.model.SystemScheduleJobLogEntity;
+import org.minxc.emp.system.core.model.SystemScheduleJobLogEntity;
 
+/**
+ * 
+* 项目名称：system-core   
+* 类名称：SystemScheduleJobLogEntityMapper   
+* 类描述：   
+* 创建人：Xianchang.min   
+* 创建时间：2018年8月22日 下午10:36:01   
+* 修改人：Xianchang.min   
+* 修改时间：2018年8月22日 下午10:36:01   
+* 修改备注：   
+* @version  1.0  
+*
+ */
 public interface SystemScheduleJobLogEntityMapper {
     int deleteByPrimaryKey(String id);
 

@@ -2,9 +2,9 @@ package org.minxc.emp.system.core.model;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
-import org.minxc.emp.base.api.model.IDModel;
+import org.minxc.emp.base.api.model.IdModel;
 
-public class SerialNo implements IDModel{
+public class SerialNo implements IdModel{
     protected String id; /*主键*/
     protected String name; /*名称*/
     protected String alias; /*别名*/

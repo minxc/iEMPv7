@@ -1,6 +1,7 @@
 package org.minxc.emp.system.core.dao;
 
 import org.minxc.emp.system.core.model.SystemLogErrorEntity;
+import org.minxc.emp.system.core.model.SystemLogErrorEntityWithBLOBs;
 
 /**
  * @version V1.0

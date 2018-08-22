@@ -1,6 +1,6 @@
 package org.minxc.emp.organization.core.dao;
 
-import org.minxc.emp.model.PositionEntity;
+import org.minxc.emp.organization.core.model.PositionEntity;
 
 public interface PositionEntityMapper {
     int deleteByPrimaryKey(String id);

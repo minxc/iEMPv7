@@ -2,7 +2,7 @@ package org.minxc.emp.system.core.model;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
-import org.minxc.emp.base.api.model.IDModel;
+import org.minxc.emp.base.api.model.IdModel;
 
 
 /**
@@ -10,7 +10,7 @@ import org.minxc.emp.base.api.model.IDModel;
  * 描述：角色资源分配 实体对象
  * </pre>
  */
-public class ResRole implements IDModel {
+public class ResRole implements IdModel {
 
     /**
      * 主键

@@ -9,6 +9,7 @@ import java.util.Map;
  * @author ray
  */
 public enum GroupTypeConstant {
+	
     ORG("org", "组织"),
     ROLE("role", "角色"),
     JOB("job", "职位"),

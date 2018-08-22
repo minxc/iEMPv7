@@ -4,13 +4,13 @@ import java.util.Date;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
-import org.minxc.emp.base.api.model.IDModel;
+import org.minxc.emp.base.api.model.IdModel;
 
 
 /**
  *  错误日志 实体对象
  */
-public class LogErr implements IDModel {
+public class LogErr implements IdModel {
     protected String id; /* 主键 */
     protected String account; /* 登录帐号 */
     protected String ip; /* IP地址 */

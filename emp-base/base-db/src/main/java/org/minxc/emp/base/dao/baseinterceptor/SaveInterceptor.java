@@ -5,7 +5,7 @@ import org.apache.ibatis.executor.Executor;
 import org.apache.ibatis.mapping.MappedStatement;
 import org.apache.ibatis.plugin.*;
 import org.minxc.emp.base.api.model.CreateInfoModel;
-import org.minxc.emp.base.api.model.IDModel;
+import org.minxc.emp.base.api.model.IdModel;
 import org.minxc.emp.base.core.model.BaseModelImpl;
 import org.minxc.emp.base.core.util.BeanUtils;
 import org.minxc.emp.base.db.id.UniqueIdUtil;
@@ -51,8 +51,8 @@ public class SaveInterceptor  implements Interceptor{
 		//新增逻辑
 		else if(StringUtils.endsWithAny(statement.getId(), ".create", ".insertSelective")) {
 			//为ID赋值
-			if (param instanceof IDModel) {
-				IDModel model = (IDModel) param;
+			if (param instanceof IdModel) {
+				IdModel model = (IdModel) param;
 	            if (model.getId() == null) {
 	                model.setId(UniqueIdUtil.getSuid());
 	            }

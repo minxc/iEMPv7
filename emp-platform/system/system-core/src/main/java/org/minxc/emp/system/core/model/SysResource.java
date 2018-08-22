@@ -6,7 +6,7 @@ import java.util.List;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
-import org.minxc.emp.base.api.model.IDModel;
+import org.minxc.emp.base.api.model.IdModel;
 import org.minxc.emp.base.api.model.Tree;
 
 
@@ -15,7 +15,7 @@ import org.minxc.emp.base.api.model.Tree;
  * 描述：子系统资源 实体对象
  * </pre>
  */
-public class SysResource implements Tree, IDModel {
+public class SysResource implements Tree, IdModel {
 
     /**
      *

@@ -1,6 +1,17 @@
 package org.minxc.emp.organization.core.model;
 
 import java.util.Date;
+import java.util.Map;
+
+import org.minxc.emp.base.core.model.AbstractCommonModel;
+import org.minxc.emp.organization.api.model.IdentityType;
+import org.minxc.emp.organization.api.model.User;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 
 /**
  * @version V1.0
@@ -10,9 +21,19 @@ import java.util.Date;
  * @author: Xianchang.min
  * @date 2018/8/22 20:00
  */
-
-public class UserEntity {
-    private String id;
+@Getter
+@Setter
+@ToString(callSuper=true)
+@AllArgsConstructor
+@Builder
+public class UserEntity extends AbstractCommonModel implements User{
+	
+    /** 
+	
+	* @Fields serialVersionUID : TODO(用一句话描述这个变量表示什么) 
+	
+	*/ 
+	private static final long serialVersionUID = -3148602064505443394L;
 
     private String fullname;
 
@@ -26,119 +47,59 @@ public class UserEntity {
 
     private String weixin;
 
-    private Date createTime;
-
     private String address;
 
     private String photo;
 
     private String sex;
+    
+    /*
+     * 来源
+     */
+    @Builder.Default
+    private String userfrom = "system";
+    
+    /**
+     * 0:禁用，1正常
+     */
+    private Integer status;
 
-    private String userfrom;
+    /**
+     * 组织ID，用于在组织下添加用户。
+     */
+    @Builder.Default
+    protected String groupId = "";
 
-    private Long status;
 
-    public String getId() {
-        return id;
-    }
+	@Override
+	public String getIdentityType() {
+		
+		return IdentityType.USER;
+	}
 
-    public void setId(String id) {
-        this.id = id == null ? null : id.trim();
-    }
+	@Override
+	public String getUserId() {
+		return id;
+	}
 
-    public String getFullname() {
-        return fullname;
-    }
+	@Override
+	public void setUserId(String userId) {
+		this.id = userId;
+	}
 
-    public void setFullname(String fullname) {
-        this.fullname = fullname == null ? null : fullname.trim();
-    }
+	@Override
+	public void setAttributes(Map<String, String> map) {
+		
+	}
 
-    public String getAccount() {
-        return account;
-    }
+	@Override
+	public Map<String, String> getAttributes() {
+		return null;
+	}
 
-    public void setAccount(String account) {
-        this.account = account == null ? null : account.trim();
-    }
+	@Override
+	public String getAttrbuite(String key) {
+		return null;
+	}
 
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password == null ? null : password.trim();
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email == null ? null : email.trim();
-    }
-
-    public String getMobile() {
-        return mobile;
-    }
-
-    public void setMobile(String mobile) {
-        this.mobile = mobile == null ? null : mobile.trim();
-    }
-
-    public String getWeixin() {
-        return weixin;
-    }
-
-    public void setWeixin(String weixin) {
-        this.weixin = weixin == null ? null : weixin.trim();
-    }
-
-    public Date getCreateTime() {
-        return createTime;
-    }
-
-    public void setCreateTime(Date createTime) {
-        this.createTime = createTime;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address == null ? null : address.trim();
-    }
-
-    public String getPhoto() {
-        return photo;
-    }
-
-    public void setPhoto(String photo) {
-        this.photo = photo == null ? null : photo.trim();
-    }
-
-    public String getSex() {
-        return sex;
-    }
-
-    public void setSex(String sex) {
-        this.sex = sex == null ? null : sex.trim();
-    }
-
-    public String getUserfrom() {
-        return userfrom;
-    }
-
-    public void setUserfrom(String userfrom) {
-        this.userfrom = userfrom == null ? null : userfrom.trim();
-    }
-
-    public Long getStatus() {
-        return status;
-    }
-
-    public void setStatus(Long status) {
-        this.status = status;
-    }
 }

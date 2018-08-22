@@ -1,5 +1,7 @@
 package org.minxc.emp.organization.core.model;
 
+import org.minxc.emp.base.core.model.AbstractCommonModel;
+
 /**
  * @version V1.0
  * @Title: RoleEntity
@@ -9,11 +11,18 @@ package org.minxc.emp.organization.core.model;
  * @date 2018/8/22 19:58
  */
 
-public class RoleEntity {
+public class RoleEntity extends AbstractCommonModel implements Role{
 
-    private String id;
 
-    private String name;
+    /** 
+	
+	* @Fields serialVersionUID : TODO(用一句话描述这个变量表示什么) 
+	
+	*/ 
+	private static final long serialVersionUID = 2246565560385511489L;
+
+	
+	private String name;
 
     private String alias;
 
@@ -21,43 +30,4 @@ public class RoleEntity {
 
     private String description;
 
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id == null ? null : id.trim();
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name == null ? null : name.trim();
-    }
-
-    public String getAlias() {
-        return alias;
-    }
-
-    public void setAlias(String alias) {
-        this.alias = alias == null ? null : alias.trim();
-    }
-
-    public Long getEnabled() {
-        return enabled;
-    }
-
-    public void setEnabled(Long enabled) {
-        this.enabled = enabled;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description == null ? null : description.trim();
-    }
 }

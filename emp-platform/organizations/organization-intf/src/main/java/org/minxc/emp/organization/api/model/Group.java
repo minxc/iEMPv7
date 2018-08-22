@@ -1,13 +1,12 @@
 package org.minxc.emp.organization.api.model;
 
-import java.io.Serializable;
 
 
 
 /**
  * 描述：抽象用户组类型
  */
-public interface Group extends IdentityType,Serializable {
+public interface Group extends IdentityType {
 
 
     /**

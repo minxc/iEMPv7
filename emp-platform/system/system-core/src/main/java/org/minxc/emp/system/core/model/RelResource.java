@@ -2,13 +2,13 @@ package org.minxc.emp.system.core.model;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
-import org.minxc.emp.base.api.model.IDModel;
+import org.minxc.emp.base.api.model.IdModel;
 
 
 /**
  * 关联资源 实体对象
  */
-public class RelResource implements IDModel {
+public class RelResource implements IdModel {
 
     /**
      * 主键

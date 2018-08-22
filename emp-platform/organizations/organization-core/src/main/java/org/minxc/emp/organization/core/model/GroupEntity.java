@@ -1,17 +1,48 @@
 package org.minxc.emp.organization.core.model;
 
+import org.minxc.emp.base.core.model.AbstractCommonModel;
+import org.minxc.emp.organization.api.constant.GroupTypeConstant;
+import org.minxc.emp.organization.api.model.GroupStructEnum;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
 /**
- * @version V1.0
- * @Title: GroupEntity
- * @Package: org.minxc.emp.organization.core.model
- * @Description: TODO:(用一句话描述该文件做什么)
- * @author: Xianchang.min
- * @date 2018/8/22 19:37
+ * 
+* 项目名称：organization-core   
+* 类名称：GroupEntity   
+* 类描述： 系统组织实体类  
+* 创建人：Xianchang.min   
+* 创建时间：2018年8月22日 下午11:20:05   
+* 修改人：Xianchang.min   
+* 修改时间：2018年8月22日 下午11:20:05   
+* 修改备注：   
+* @version  1.0  
+*
  */
 
-public class GroupEntity {
 
-    private String id;
+@Setter
+@Getter
+@ToString(callSuper=true)
+@EqualsAndHashCode(callSuper=true)
+@NoArgsConstructor
+@Builder
+@AllArgsConstructor
+public class GroupEntity extends AbstractCommonModel{
+
+    /** 
+	
+	* @Fields serialVersionUID : TODO(用一句话描述这个变量表示什么) 
+	
+	*/ 
+	private static final long serialVersionUID = 6626050551592687284L;
+
 
     private String name;
 
@@ -24,60 +55,27 @@ public class GroupEntity {
     private String grade;
 
     private String description;
+    
+    private String parentGroupName;
+    
+    /**
+     * 是否主组织。
+     */
+    @Builder.Default
+    private int isMaster = 0;
+    
+    
+    
 
-    public String getId() {
-        return id;
+    public String getGroupType() {
+        return GroupTypeConstant.ORG.key();
     }
 
-    public void setId(String id) {
-        this.id = id == null ? null : id.trim();
+    public GroupStructEnum getStruct() {
+        return GroupStructEnum.TREE;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name == null ? null : name.trim();
-    }
-
-    public String getParentId() {
-        return parentId;
-    }
-
-    public void setParentId(String parentId) {
-        this.parentId = parentId == null ? null : parentId.trim();
-    }
-
-    public Long getSeq() {
-        return seq;
-    }
-
-    public void setSeq(Long seq) {
-        this.seq = seq;
-    }
-
-    public String getCode() {
-        return code;
-    }
-
-    public void setCode(String code) {
-        this.code = code == null ? null : code.trim();
-    }
-
-    public String getGrade() {
-        return grade;
-    }
-
-    public void setGrade(String grade) {
-        this.grade = grade == null ? null : grade.trim();
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description == null ? null : description.trim();
+    public String getPath() {
+        return null;
     }
 }

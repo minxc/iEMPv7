@@ -2,7 +2,7 @@ package org.minxc.emp.system.core.model;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
-import org.minxc.emp.base.api.model.IDModel;
+import org.minxc.emp.base.api.model.IdModel;
 import org.minxc.emp.system.api.model.system.Subsystem;
 
 
@@ -11,7 +11,7 @@ import org.minxc.emp.system.api.model.system.Subsystem;
  * 描述：子系统定义 实体对象
  * </pre>
  */
-public class SubsystemImpl implements IDModel,Subsystem {
+public class SubsystemImpl implements IdModel,Subsystem {
 
     /**
      * 主键

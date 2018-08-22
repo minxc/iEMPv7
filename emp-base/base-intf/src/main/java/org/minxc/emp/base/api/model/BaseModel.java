@@ -10,6 +10,6 @@ package org.minxc.emp.base.api.model;
  * 版权:summer
  * </pre>
  */
-public interface BaseModel extends CreateInfoModel,IDModel {
+public interface BaseModel extends CreateInfoModel,IdModel {
 
 }
